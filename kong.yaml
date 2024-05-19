@@ -42,3 +42,4 @@ upstreams:
   - name: places_upstream
     targets:
       - target: 10.128.0.87:8080
+        weight: 100
